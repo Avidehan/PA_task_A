@@ -10,3 +10,6 @@
 4.	Open the project folder in another command line 
     1.	Cd  cards
     2.	Run npm start
+5.  On the page that updates the server, click the button "send data"
+6.  On the page that display data from user, refresh the page
+

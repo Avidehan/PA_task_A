@@ -55,7 +55,7 @@ function App() {
                                                 truncatedEndingComponent={"... "}  className='grid-item'>{data.resource}</ShowMoreText>
                                                 <div className='grid'> {data.category}</div>
                                                 <div className='grid-item' > {parseTime(Number(data.creation_date))}</div>
-                                                <div className='grid-item'> {data.errors}</div>
+                                                <div className='grid4'> {data.errors}</div>
                                     
                           </div>
                            {isActive===row_index &&  <div className="content"><p><b>Status</b> : {data.details.status} </p> 
