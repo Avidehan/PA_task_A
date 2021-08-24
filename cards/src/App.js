@@ -32,7 +32,7 @@ function App() {
             <div class="title"> {data.length} Total Erorrs</div>
               {data.map((data,row_index) => {
                   return (
-                    <div className="item">
+                    <div className="card">
                           <div className="grid-container" onClick={() =>{
                                         if (isActive === row_index)
                                         {
@@ -51,9 +51,9 @@ function App() {
                                                 className="content-css"
                                                 anchorClass="my-anchor-css-class"
                                                 expanded={false}
-                                                width={280}
+                                                width={250}
                                                 truncatedEndingComponent={"... "}  className='grid-item'>{data.resource}</ShowMoreText>
-                                                <div className='grid-item'> {data.category}</div>
+                                                <div className='grid'> {data.category}</div>
                                                 <div className='grid-item' > {parseTime(Number(data.creation_date))}</div>
                                                 <div className='grid-item'> {data.errors}</div>
                                     
