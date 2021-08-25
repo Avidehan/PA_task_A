@@ -6,7 +6,7 @@
     2.  Run npm install express
     3.	Run node  sever.js
 3. install new app run npx create-react-app send    
-    1. Replace the following files App.js ,App.css ,data.json ,index.css,index.js from senddata to send 
+    1. Replace the following files App.js ,App.css ,data.json ,index.css,index.js from PA_task_A\senddata\src to send\src 
     2.  Open the project folder in another command line
     3.	Cd   send  
     4.	Run npm start
