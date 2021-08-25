@@ -9,7 +9,7 @@
     1. Replace the following files App.js ,App.css ,data.json ,index.css,index.js from senddata to send 
     2.  Open the project folder in another command line
     3.	Cd   send  
-    5.	Run npm start
+    4.	Run npm start
 4.	Open the project folder in another command line 
     1.	Cd  cards
     2.	Run npm start
